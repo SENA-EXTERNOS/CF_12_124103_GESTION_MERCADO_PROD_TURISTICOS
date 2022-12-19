@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Estructura comercial turística',
+    descripcionCurso:
+      'En este componente formativo de la estructura comercial turística se pretende dar a conocer algunos de los elementos que la conforman, como lo son los portafolios de servicios turísticos, sus componentes y la forma correcta de utilizarlos. Adicionalmente, se conocerán los elementos necesarios para la comercialización y la comunicación asertiva dentro de la estructura turística.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -32,14 +41,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Portafolio de servicios',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Componentes',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Estructura',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Técnicas de interpretación y manejo',
+            hash: 't_1_3',
           },
         ],
       },
@@ -48,15 +69,55 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Comercialización del portafolio turístico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Procesos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Técnicas',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Gestión de servicios turísticos',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Comunicación asertiva',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Importancia ',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Técnicas de recolección',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Aplicabilidad',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +162,91 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Portafolio de servicios',
+      referencia:
+        'Cando Pilataxi, L. A., Vera Ayala, J. N., & Martin Moreno, I. A. (2022). <em>Portafolio de lineamientos para la reactivación de los principales servicios y atractivos turísticos del cantón Nobol</em> (Doctoral dissertation, Escuela Superior Politécnica del Litoral, Guayaquil), ESPOL. FCSH.). ',
+      tipo: 'Tesis',
+      link: 'https://www.dspace.espol.edu.ec/handle/123456789/53087 ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'comercialización de portafolio de servicios ',
+      referencia:
+        'Fernández, A. Villarán, A. (2017). <em>Promoción y comercialización de productos y servicios turísticos locales</em>. Ediciones Paraninfo, SA. ',
+      tipo: 'Libro ',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=2Lo8DwAAQBAJ&oi=fnd&pg=PP1&dq=comercializaci%C3%B3n+portafolios+de+servicios+tur%C3%ADsticos&ots=uLauITQJcu&sig=8T4ctqki2re9e_SwaVaSx__GldI#v=onepage&q=comercializaci%C3%B3n%20portafolios%20de%20servicios%20tur%C3%ADsticos&f=false ',
+    },
+    {
+      tema: 'Comunicación asertiva',
+      referencia:
+        'Aguilar, J. E. (2019). <em>Comunicación asertiva</em>. Direccióndepersonal.com. ',
+      tipo: 'Manual didáctico',
+      link: 'http://www.direcciondepersonal.com/comunicacion_asertiva.pdf',
+    },
+    {
+      tema: 'técnicas de recolección.',
+      referencia:
+        'Caro, L. (2021). <em>7 técnicas e instrumentos para la recolección de datos</em>. Equipo Editorial. ',
+      tipo: 'Instructivo ',
+      link:
+        'https://gc.scalahed.com/recursos/files/r161r/w25172w/M1CCT05_S3_7_Tecnicas_e_instrumentos.pdf ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Asertividad',
+      significado:
+        'es una habilidad que le permite a las personas dirigirse a otras de manera directa y efectiva.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Certificación',
+      significado:
+        'logro o conmemoración inscrita en un documento para su autenticidad.',
+    },
+    {
+      termino: 'Comercio',
+      significado:
+        'actividad económica que consiste en la compra y venta de productos y servicios.',
+    },
+    {
+      termino: 'Estrategia',
+      significado:
+        'son todos aquellos planes y proyecciones que se tienen en cuenta para alcanzar un objetivo o una meta.',
+    },
+    {
+      termino: 'Estructura',
+      significado: 'manera de organizar u ordenar un conjunto de elementos.',
+    },
+    {
+      termino: 'Gestión',
+      significado:
+        'conjunto de trámites y procesos utilizados para adquirir un beneficio propio o colectivo.',
+    },
+    {
+      termino: 'Interpretación',
+      significado:
+        'demostrar de manera clara y concisa el conocimiento sobre algo o alguien.',
+    },
+    {
+      termino: 'Portafolio',
+      significado:
+        'es el conjunto de productos y servicios cuyo fin es ser ofrecido a un público específico.',
+    },
+    {
+      termino: 'Proceso',
+      significado: 'es un suceso de acciones para lograr una meta.',
+    },
+    {
+      termino: 'Servicio',
+      significado: 'conjunto de acción y utilidades usadas para un bien común.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Molina, P. G. (2016). <em>Promoción y comercialización de productos y servicios turísticos locales. UF 0084</em>. Tutor Formación.',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=owQKDQAAQBAJ&oi=fnd&pg=PA7&dq=procesos+de+comercializacion+turistica&ots=OqsOgHbvaN&sig=nCyW7WmFidnQUxdLzLK3SumL9bw#v=onepage&q&f=false',
     },
   ],
   creditos: {
