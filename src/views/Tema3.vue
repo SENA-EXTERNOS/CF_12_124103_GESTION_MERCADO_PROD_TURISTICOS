@@ -22,26 +22,26 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen')       
+                  img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen').width-pasos      
               .col-lg-10
-                p Las bases de datos son un conjunto de datos relacionados entre sí que poseen una coherencia lógica y contienen la representación de objetos, sujetos o hechos de la vida real o simulados. Son creadas con un fin específico, es decir, deben tener una utilidad para una persona o un grupo. (Granero, 2022, párr. 1)
+                p.mt-3 Las bases de datos son un conjunto de datos relacionados entre sí que poseen una coherencia lógica y contienen la representación de objetos, sujetos o hechos de la vida real o simulados. Son creadas con un fin específico, es decir, deben tener una utilidad para una persona o un grupo. (Granero, 2022, párr. 1)
 
           .tarjeta.clr-paleYellow.p-4(titulo="Posturas y emociones de una persona")
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')       
+                  img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen').width-pasos       
               .col-lg-10
-                p Algunos conceptos definen la comunicación asertiva, como el estilo de la misma comunicación, que permite expresar las ideas de una persona de manera directa y precisa, así como también sus posturas y emociones.
+                p.mt-3 Algunos conceptos definen la comunicación asertiva, como el estilo de la misma comunicación, que permite expresar las ideas de una persona de manera directa y precisa, así como también sus posturas y emociones.
 
 
           .tarjeta.clr-paleYellow.p-4(titulo="La asertividad")
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen')       
+                  img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen').width-pasos       
               .col-lg-10
-                p La asertividad en el campo turístico juega un rol fundamental tanto para la venta como para la posventa de un producto, como también para la interpretación natural y cultural del entorno o de una manifestación como tal.  
+                p.mt-3 La asertividad en el campo turístico juega un rol fundamental tanto para la venta como para la posventa de un producto, como también para la interpretación natural y cultural del entorno o de una manifestación como tal.  
 
 
     separador
@@ -67,7 +67,7 @@
 
           p(numero="5" titulo="Capacidad de escuchar") Además, se puede fortalecer la capacidad de escucha, tanto del emisor como del receptor del mensaje, utilizando la empatía y la responsabilidad afectiva dentro de una organización. Adicional a esto, se logra la inclusión social dentro de cualquier conversación, sin estigmatización, prejuicio o desigualdad alguna.
 
-      .col-8.col-lg-4
+      .col-8.col-lg-4.mt-3
         figure
           img(src="@/assets/curso/temas/tema3/img5.svg", alt="alt")
 

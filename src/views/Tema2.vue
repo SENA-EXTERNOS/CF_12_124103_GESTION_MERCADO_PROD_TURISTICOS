@@ -58,7 +58,7 @@
             img(src="@/assets/curso/temas/tema2/img3.svg", alt="alt")
 
       .col-lg-8
-        p.mt-3 A continuación, se detallan los procesos de comercialización y los tipos de estrategias que se pueden estructurar para lograr una distribución de productos según su naturaleza y enfoque de entrega.
+        p.mt-5 A continuación, se detallan los procesos de comercialización y los tipos de estrategias que se pueden estructurar para lograr una distribución de productos según su naturaleza y enfoque de entrega.
 
     .row.mt-5
       p Los procesos mediante los cuales se lleva a cabo la comercialización de un portafolio de servicios turísticos hacen referencia al conjunto de técnicas ideales para el desarrollo comercial de los portafolios de servicio. Se componen de las fases mediante las que se desarrollará el proceso de venta y entrega final de los servicios y productos incluidos en el portafolio para el turista.

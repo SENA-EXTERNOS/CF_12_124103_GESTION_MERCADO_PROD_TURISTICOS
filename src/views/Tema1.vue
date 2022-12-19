@@ -65,7 +65,7 @@
           img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-8
-        p La función principal de los portafolios de servicio es servir como carta de presentación, ya sea de una empresa, organización o persona natural que pretende dar a conocer todos sus servicios a clientes potenciales, proveedores, socios y posibles socios. 
+        p.mt-5 La función principal de los portafolios de servicio es servir como carta de presentación, ya sea de una empresa, organización o persona natural que pretende dar a conocer todos sus servicios a clientes potenciales, proveedores, socios y posibles socios. 
 
     .row.mt-5
       p Dependiendo del enfoque de los servicios ofertados por el ente turístico, se hace necesario definir e identificar elementos o componentes que actúen a favor del planificador turístico, es decir, la persona encargada de planear y realizar estos portafolios de servicios, quien tiene la libertad de agregar los componentes que considere necesarios para la ejecución del portafolio. Algunos de estos componentes son:
@@ -209,7 +209,7 @@
           img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt")
 
       .col-lg-8
-        p Los portafolios de servicios muestran información de productos y servicios para un público en particular; en el turismo estos portafolios cumplen una función importante porque dan a conocer los datos que el turista o viajero debe conocer de primera mano sobre el lugar a visitar, además de los servicios que este ofrece.
+        p.mt-3 Los portafolios de servicios muestran información de productos y servicios para un público en particular; en el turismo estos portafolios cumplen una función importante porque dan a conocer los datos que el turista o viajero debe conocer de primera mano sobre el lugar a visitar, además de los servicios que este ofrece.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -226,14 +226,6 @@
     .row.mt-3
       p El #[b diseñador del portafolio de servicios] tiene la labor de diseñar técnicas para la correcta interpretación de sus servicios o de sus productos, estas técnicas pueden centrarse en realizar, de manera dinámica, fichas técnicas que le permitan al lector del portafolio el fácil procesamiento de la información. Dichas fichas técnicas deben contener elementos similares a los de un portafolio tradicional, como por ejemplo la información sobre la organización, requerimientos, datos estadísticos (en caso de ser necesarios), precios y especificaciones sobre los productos y servicios. 
 
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-    
-      .bloque-texto-g__texto2.p-4
-        h2.mb-0 El plan de comunicación se debe desarrollar a través de los siguientes pasos:
-
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Las creaciones de portafolios de servicios turísticos abarcan una amplia serie de lineamientos necesarios para brindar u ofrecer buenos productos turísticos; estos portafolios son creados con la necesidad de dar a conocer, de manera específica, una organización o empresa turística y los servicios que puede llegar a aportar a las diferentes personas que adquieran el portafolio de servicios, o que simplemente se encuentren interesadas en conocer un poco más a la empresa u organización. 
 
       
 
