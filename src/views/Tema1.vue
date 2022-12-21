@@ -19,7 +19,8 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p #[b Portafolio de servicios]
-            p Portafolio de servicios
+            p p Un portafolio de servicios es un documento, archivo, carpeta o página web que se encuentra contemplado para dar información básica y específica sobre los servicios que son ofrecidos por la empresa turística. Este cuenta con diferentes lineamientos que son establecidos previamente por la organización, al igual que los servicios que pretenden brindar mediante el portafolio. 
+      
 
           .col-md-6
             figure
@@ -225,7 +226,6 @@
 
     .row.mt-3
       p El #[b diseñador del portafolio de servicios] tiene la labor de diseñar técnicas para la correcta interpretación de sus servicios o de sus productos, estas técnicas pueden centrarse en realizar, de manera dinámica, fichas técnicas que le permitan al lector del portafolio el fácil procesamiento de la información. Dichas fichas técnicas deben contener elementos similares a los de un portafolio tradicional, como por ejemplo la información sobre la organización, requerimientos, datos estadísticos (en caso de ser necesarios), precios y especificaciones sobre los productos y servicios. 
-
 
       
 

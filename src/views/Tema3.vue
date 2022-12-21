@@ -15,7 +15,13 @@
       .col-lg-8
         p.mt-3 El sector turístico es una dinámica cuya cualidad principal se encuentra basada en la comunicación, teniendo en cuenta que hace referencia a la acción de transmitir un mensaje con éxito mediante los diferentes canales existentes para su obtención. 
 
-    .row.justify-content-center.align-items-center.mt-5          
+    .row.mt-3
+      ul.lista-ul--color
+        li 
+          i.fas.fa-square
+          p.mb-0 #[b Comunicación asertiva]  
+    
+    .row.justify-content-center.align-items-center.mt-3       
       .col-lg-12
         TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="El diálogo")
@@ -84,7 +90,7 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema3/img6.svg", alt="alt")
 
-      .col-lg-8
+      .col-lg-8.mt-3
         .cajonAmarillo.bgr-tarjeta-tema1.p-4
            p Las técnicas de recolección son herramientas utilizadas por cualquier persona para la adquisición de datos e información, ya sea sobre un producto, una experiencia o una persona. 
 
