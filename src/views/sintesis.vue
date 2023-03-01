@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Revise el siguiente esquema gráfico, el cual presenta una síntesis de las temáticas abordadas en este componente formativo.
+    p.mb-4 Revise el siguiente esquema gráfico, el cual presenta una síntesis de las temáticas abordadas en este componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5

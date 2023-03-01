@@ -9,8 +9,8 @@
           figure
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Arrastrar y soltar
+        .titulo-segundo.color-acento-contenido
+          h2 Estructura comercial turística 
         p.mb-4 La presente actividad busca que el aprendiz precise los conocimientos adquiridos durante el proceso de aprendizaje sobre la estructura comercial turística, respecto a la competencia de asesoramiento de viajeros y de acuerdo con el tipo de servicio turístico y sus normativas.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

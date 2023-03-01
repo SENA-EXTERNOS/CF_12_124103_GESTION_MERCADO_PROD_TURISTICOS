@@ -7,60 +7,56 @@
         span 1
       h1 Portafolio de servicios
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Las creaciones de portafolios de servicios turísticos abarcan una amplia serie de lineamientos necesarios para brindar u ofrecer buenos productos turísticos; estos portafolios son creados con la necesidad de dar a conocer, de manera específica, una organización o empresa turística y los servicios que puede llegar a aportar a las diferentes personas que adquieran el portafolio de servicios, o que simplemente se encuentren interesadas en conocer un poco más a la empresa u organización. 
 
-    .tarjeta.tarjeta--azul.p-4.mt-5.bgr1-tema1
+    .row.justify-content-center.align-items-center
+      .col-md-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Las creaciones de portafolios de servicios turísticos abarcan una amplia serie de lineamientos necesarios para brindar u ofrecer buenos productos turísticos; estos portafolios son creados con la necesidad de dar a conocer de manera específica, una organización o empresa turística y los servicios que pueden llegar a aportar a las diferentes personas que adquieran el portafolio de servicios, o que simplemente se encuentren interesadas en conocer un poco más a la empresa u organización.  
+
+    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-5.bgr1-tema1.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            p #[b Portafolio de servicios]
-            p p Un portafolio de servicios es un documento, archivo, carpeta o página web que se encuentra contemplado para dar información básica y específica sobre los servicios que son ofrecidos por la empresa turística. Este cuenta con diferentes lineamientos que son establecidos previamente por la organización, al igual que los servicios que pretenden brindar mediante el portafolio. 
-      
-
+            h4 Portafolio de servicios
+            p Un portafolio de servicios es un documento, archivo, carpeta o página #[em web] que se encuentra contemplado para dar información básica y específica sobre los servicios que son ofrecidos por la empresa turística. Este cuenta con diferentes lineamientos que son establecidos previamente por la organización, al igual que los servicios que pretenden brindar mediante el portafolio. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img2.png', alt='Texto que describa la imagen')
 
         .row
           .col-md-6.mb-4.mb-md-0
-            p #[b Estrategia comercial ]
-            p Esta estrategia comercial puede garantizar al cliente la confiabilidad de sus servicios, y puede ser determinante al momento de tomar una decisión.
-
+            h4 Estrategia comercial
+            p La estrategia comercial puede garantizar al cliente la confiabilidad de sus servicios, y puede ser determinante al momento de tomar una decisión.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img3.png', alt='Texto que describa la imagen')
 
         .row
           .col-md-6.mb-4.mb-md-0
-            p #[b Documentos como herramientas]
+            h4 Documentos como herramientas
             p Los portafolios de servicios no solo son utilizados por grandes empresas u organizaciones turísticas, pues estos también son elaborados por prestadores de servicio o personas naturales que brindan servicios dentro del entorno turístico. Un ejemplo de estos son los intérpretes ambientales y culturales, quienes pueden utilizar estos documentos como herramienta para ofrecer y brindar su servicio.
-
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen')
 
         .row
           .col-md-6.mb-4.mb-md-0
-            p #[b Entidades públicas]
+            h4 Entidades públicas
             p Las entidades públicas o gubernamentales, como el Ministerio de Comercio, Industria y Turismo, también utilizan portafolios de servicio para la organización del gremio.
-
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img5.png', alt='Texto que describa la imagen')
 
-    separador
+    
 
-    #t_1_1
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.1 Componentes
+    h3 Los componentes del portafolio de servicios
 
-    .row.justify-content-center.align-items-center.mt-5
+    .row.justify-content-center.align-items-center.mt-4
       .col-lg-2
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
@@ -75,7 +71,7 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Componentes de un portafolio]   
+          h4.mb-0 #[b Componentes de un portafolio]   
 
     .bg--img_03
       .row.justify-content-center.mb-4
@@ -83,15 +79,16 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Fecha")
               .col-12
-                p.mb-0 Este elemento, como su nombre lo indica, tiene la funcionalidad de añadir la fecha al portafolio de servicios, que puede ser la fecha en la que el portafolio fue publicado, la fecha de actualización del portafolio o una fecha estándar predeterminada. En la estructura de portafolios de servicios digitales esta fecha puede ser actualizada diariamente, mientras que en los portafolios de servicios físicos no es muy utilizado este elemento debido a su constante desactualización.
+                p Este elemento, como su nombre lo indica, tiene la funcionalidad de añadir la fecha al portafolio de servicios, que puede ser en la cual portafolio fue publicado, en cual se actualizó o una fecha estándar predeterminada. 
+                p.mb-0 En la estructura de portafolios de servicios digitales esta fecha puede ser actualizada diariamente, mientras que en los portafolios de servicios físicos no es muy utilizado este elemento debido a su constante desactualización.
 
             .row(titulo="Nombre")
               .col-12
-                p.mb-0 En este elemento se ubica el nombre de la empresa, al igual que su razón social y eslogan publicitario; en caso de que se trate del portafolio de servicios de una persona, se debe colocar su nombre completo, su profesión y profundizar sobre qué se especializa.
+                p.mb-0 En este elemento se ubica el nombre de la empresa, su razón social y eslogan publicitario; en caso de que se trate del portafolio de servicios de una persona, se debe colocar su nombre completo, su profesión y profundizar sobre qué se especializa.
 
             .row(titulo="Objetivos")
               .col-12
-                p.mb-0 En este componente se plantean los objetivos generales y específicos de la empresa, organización o individuo, los cuales ya han sido desarrollados con anterioridad para la conformación de la empresa o para el posicionamiento del nombre de una persona como marca personal.
+                p.mb-0 En este punto se plantean los objetivos generales y específicos de la empresa, organización o individuo, los cuales ya han sido desarrollados con anterioridad para la conformación de la empresa o para el posicionamiento del nombre de una persona como marca personal.
 
             .row(titulo="Historia ")
               .col-12
@@ -119,7 +116,7 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Certificaciones")
               .col-12
-                p.mb-0 Este es uno de los componentes que más resaltan y muestran las personas y las empresas turísticas que tienen certificaciones de calidad o certificaciones con relación a otros aspectos, lo cual cumple con aspectos diferenciadores con respecto a otras empresas que adquieren valor al momento de elegir un portafolio.
+                p.mb-0 Este es uno de los componentes que más resaltan las personas y las empresas turísticas que por supuesto cuentan con  certificaciones de calidad o certificaciones con relación a otros aspectos, lo cual cumple con aspectos diferenciadores con respecto a otras empresas que adquieren valor al momento de elegir un portafolio.
 
             .row(titulo="Proveedores")
               .col-12
@@ -131,30 +128,28 @@
 
             .row(titulo="Clientes")
               .col-12
-                p.mb-0 Estos juegan un papel fundamental para muchas empresas y organizaciones, debido a que demuestran la trayectoria que tiene la empresa en el gremio turístico, aportando credibilidad y experiencia; una buena parte de las organizaciones turísticas aprovechan este elemento para exponer a los clientes importantes de su empresa, normalmente marcas reconocidas, famosos y celebridades, para con ello atraer a otro tipo de público.
+                p.mb-0 Estos juegan un papel fundamental para muchas empresas y organizaciones, debido a que demuestran la trayectoria que tiene la empresa en el gremio turístico, aportando credibilidad y experiencia; una buena parte de las organizaciones turísticas aprovechan este elemento para exponer a los clientes aspectos importantes de su empresa, normalmente marcas reconocidas, famosos y celebridades, para con ello atraer a otro tipo de público.
 
             .row(titulo="Servicios")
               .col-12
-                p.mb-0 Es el elemento principal de un portafolio, el cual se debe incluir en las diferentes estructuras existentes en los portafolios de servicios turísticos. En esta sección se muestran los servicios que se pretende brindar a las personas que contacten la organización, permitiendo que se ofrezcan o brinden servicios propios de la empresa o de los socios con los que se tenga una especie de outsourcing (tercerización de servicios para evitar gastos y responsabilidades directas con la empresa).
+                p.mb-0 Es el elemento principal de un portafolio, el cual se debe incluir en las diferentes estructuras existentes en los portafolios de servicios turísticos. En esta sección se muestran los servicios que se pretende brindar a las personas que contacten la organización, permitiendo que se ofrezcan o brinden servicios propios de la empresa o de los socios con los que se tenga una especie de #[b #[em outsourcing]] (tercerización de servicios para evitar gastos y responsabilidades directas con la empresa).
 
             .row(titulo="Proyectos")
               .col-12
                 p.mb-0 Los portafolios de servicio pueden tener la particularidad de presentar proyectos o características relacionadas con ellos, los cuales se pueden presentar como un elemento más del portafolio, como también pueden ser el elemento central de la organización, y por ende del portafolio.
 
 
-    separador
 
-    #t_1_2
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 Estructura
+
+    h3.mb-4 Estructura
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .cajonAmarillo.bgr-tarjeta-tema1.p-4
-           p Teniendo en cuenta que el turismo se puede denominar como un sistema complejo, de acuerdo a la teoría general de los sistemas, es posible vislumbrar que se encuentra conformado por un conjunto de infinitos componentes y conceptos que confluyen en una elaborada práctica dentro del área del servicio, la recreación y el entretenimiento.
+           p.mb-0 Teniendo en cuenta que el turismo se puede denominar como un sistema complejo, de acuerdo a la teoría general de los sistemas, es posible vislumbrar que se encuentra conformado por un conjunto de infinitos componentes y conceptos que confluyen en una elaborada práctica dentro del área del servicio, la recreación y el entretenimiento.
         
-        p.mt-3 Así mismo, es posible definir la compleja estructura del portafolio turístico, la cual se puede denominar como el sistema que abarca los elementos o componentes necesarios del portafolio de servicios, que ya han sido mencionados. Ahora bien, la estructura con la que se plantea un portafolio de servicios turísticos se define dependiendo de las necesidades de cada persona u organización turística, considerando también los diferentes tipos de portafolios de servicios, como lo son:
+        p.mt-3 Así mismo, es posible definir la compleja estructura del portafolio turístico, la cual se puede denominar como el sistema que abarca los elementos o componentes necesarios ya han sido mencionados. Ahora bien, la estructura con la que se plantea un portafolio de servicios turísticos se define dependiendo de las necesidades de cada persona u organización turística, considerando también los diferentes tipos de portafolios de servicios, como lo son:
 
       .col-lg-4
           figure(data-aos="zoom-in")
@@ -164,45 +159,39 @@
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Portafolios físicos]  
+          h4.mb-0 #[b Portafolios físicos]  
 
-      p Como su nombre lo indica, son todos aquellos portafolios que se encuentran estructurados por medios físicos, es decir, que pueden ser vistos y palpados por los interesados. En la actualidad, estos son desarrollados por medio de herramientas tecnológicas, las cuales facilitan la elaboración y configuración de los diseños, que luego son impresos para su comercialización. 
+      p Como su nombre lo indica, son todos aquellos portafolios que se encuentran estructurados por medios físicos, es decir, que pueden ser vistos y palpados por los interesados. En la actualidad, estos son desarrollados por medio de herramientas tecnológicas, las cuales facilitan la elaboración y configuración de los diseños, que luego son impresos para su comercialización. Por ejemplo:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
+        h5.text-center Clases de portafolios
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt")
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        p Al momento de la impresión se trata de abarcar la información precisa y concisa acerca de los elementos a incluir, la cual será presentada de manera tríptica (documento que se divide en tres partes) o díptica (documentos que se divide en dos partes) para captar la atención de la persona que lo adquiera. 
-
-        p Otra forma de desarrollar los portafolios de servicios físicos es mediante manuales publicitarios, en donde se muestran detalladamente todos y cada uno de sus componentes.
-
+    
+    
     .row.mt-3
       ul.lista-ul--color
         li 
           i.fas.fa-square
-          p.mb-0 #[b Portafolios digitales]  
+          h4.mb-0 #[b Portafolios digitales]  
 
-      p Los portafolios de servicios digitales emplean las páginas web como portafolio de servicio, las cuales ofertan de manera actualizada sus productos, proyectos y servicios.
+      p Los portafolios de servicios digitales emplean las páginas #[em web] como portafolio de servicio, las cuales ofertan de manera actualizada sus productos, proyectos y servicios.
 
-      p #[b Ejemplo de portafolios digitales]
+      p Ejemplo de portafolios digitales:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")
 
-    .row.mt-3
-      p Al igual que los demás portafolios, se encuentran diseñados con herramientas tecnológicas, pero a diferencia de los portafolios físicos, estos no son impresos de manera física, pues se restringen a los medios digitales y tecnológicos, como computadores, celulares, tabletas y demás dispositivos electrónicos, mediante herramientas y aplicativos digitales utilizados por los desarrolladores y programadores de sistemas.
 
-    separador
+    p.mb-5 Al igual que los demás portafolios, se encuentran diseñados con herramientas tecnológicas, pero a diferencia de los portafolios físicos, estos no son impresos, pues se restringen a los medios digitales y tecnológicos, como computadores, celulares, tabletas y demás dispositivos electrónicos, mediante herramientas y aplicativos digitales utilizados por los desarrolladores y programadores de sistemas.
 
-    #t_1_3
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.3 Técnicas de interpretación y manejo
+
+    h3 Técnicas de interpretación y manejo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2

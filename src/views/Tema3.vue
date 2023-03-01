@@ -15,74 +15,62 @@
       .col-lg-8
         p.mt-3 El sector turístico es una dinámica cuya cualidad principal se encuentra basada en la comunicación, teniendo en cuenta que hace referencia a la acción de transmitir un mensaje con éxito mediante los diferentes canales existentes para su obtención. 
 
-    .row.mt-3
-      ul.lista-ul--color
-        li 
-          i.fas.fa-square
-          p.mb-0 #[b Comunicación asertiva]  
     
     .row.justify-content-center.align-items-center.mt-3       
       .col-lg-12
         TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="El diálogo")
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-2
+              .col-lg-2.px-4
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen').width-pasos      
               .col-lg-10
-                p.mt-3 Las bases de datos son un conjunto de datos relacionados entre sí que poseen una coherencia lógica y contienen la representación de objetos, sujetos o hechos de la vida real o simulados. Son creadas con un fin específico, es decir, deben tener una utilidad para una persona o un grupo. (Granero, 2022, párr. 1)
+                p.mt-3 La comunicación asertiva hace referencia a la habilidad de establecer un diálogo de manera eficaz y contundente, el cual abre las puertas a la retroalimentación, respetando las ideas de los integrantes dentro de la conversación y permitiendo el diálogo cordial. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Posturas y emociones de una persona")
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-2
+              .col-lg-2.px-4
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen').width-pasos       
               .col-lg-10
                 p.mt-3 Algunos conceptos definen la comunicación asertiva, como el estilo de la misma comunicación, que permite expresar las ideas de una persona de manera directa y precisa, así como también sus posturas y emociones.
 
-
-          .tarjeta.clr-paleYellow.p-4(titulo="La asertividad")
+          .tarjeta.clr-paleYellow.p-4(titulo="La asertividad en el turísmo")
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-2
+              .col-lg-2.px-4
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen').width-pasos       
               .col-lg-10
                 p.mt-3 La asertividad en el campo turístico juega un rol fundamental tanto para la venta como para la posventa de un producto, como también para la interpretación natural y cultural del entorno o de una manifestación como tal.  
 
 
-    separador
-
-    #t_3_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 3.1 Importancia 
-
-    .row  
-      p La comunicación asertiva ha adquirido múltiples beneficios en su aplicación, su ejercicio permite generar un gran impacto dentro de una conversación, obteniendo una retroalimentación positiva y el logro de compras y ventas relacionadas con productos turísticos. 
+    
+    h3 La importancia de la asertividad  
+ 
+    p.mb-4 La comunicación asertiva ha adquirido múltiples beneficios en su aplicación, su ejercicio permite generar un gran impacto dentro de una conversación, obteniendo una retroalimentación positiva y el logro de compras y ventas relacionadas con productos turísticos. 
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-secundario.mb-md-5.mb-0
           p(numero="1" titulo="Importancia de la comunicación") La retroalimentación o respuesta asertiva cumple la función de proteger los derechos del comunicador, al igual que respetar los derechos de los demás; dentro de esta también se puede evidenciar la confianza equilibrada y el dominio del tema, que son dos de los aspectos positivos que se tienen en cuenta al momento de cerrar un negocio. 
 
-          p(numero="2" titulo="La comunicación asertiva") La comunicación asertiva también es utilizada como estrategia de competitividad dentro de las organizaciones turísticas, permitiendo capacitar al personal para que logre un enfoque comunicativo que podrá ser utilizado a favor de la organización. Estas capacitaciones se pueden enfatizar en los valores y cualidades básicas que tienen algunas personas, como la empatía, el respeto y la formalidad. 
+          p(numero="2" titulo="Estrategia de competitividad") La comunicación asertiva también es utilizada como estrategia de competitividad dentro de las organizaciones turísticas, permitiendo capacitar al personal para que logre un enfoque comunicativo que podrá ser utilizado a favor de la organización. Estas capacitaciones se pueden enfatizar en los valores y cualidades básicas que tienen algunas personas, como la empatía, el respeto y la formalidad. 
 
-          p(numero="3" titulo="Transmisión de información") La asertividad con el pasar del tiempo ha adquirido gran valor en la administración, ya que es una habilidad que se debe desarrollar ampliamente en este ámbito, al igual que en otras ramas de los servicios, como lo son la producción, el marketing, la contabilidad y las finanzas, pues permite la transmisión de información de manera efectiva.
+          p(numero="3" titulo="Transmisión de información") La asertividad con el pasar del tiempo ha adquirido gran valor en la administración, ya que es una habilidad que se debe desarrollar ampliamente en este ámbito, al igual que en otras ramas de los servicios, como lo son la producción, el #[em marketing], la contabilidad y las finanzas, pues permite la transmisión de información de manera efectiva.
 
           p(numero="4" titulo="Conversación") La comunicación asertiva le permite al interlocutor defender su opinión de manera crítica y respetuosa, con argumentos concisos sobre el tema que se pueda estar tratando; también permite poca predictibilidad al momento de entablar una conversación importante.
 
-          p(numero="5" titulo="Capacidad de escuchar") Además, se puede fortalecer la capacidad de escucha, tanto del emisor como del receptor del mensaje, utilizando la empatía y la responsabilidad afectiva dentro de una organización. Adicional a esto, se logra la inclusión social dentro de cualquier conversación, sin estigmatización, prejuicio o desigualdad alguna.
+          p(numero="5" titulo="Capacidad de escuchar") Se puede fortalecer la capacidad de escucha, tanto del emisor como del receptor del mensaje, utilizando la empatía y la responsabilidad afectiva dentro de una organización. Adicional a esto, se logra la inclusión social dentro de cualquier conversación, sin estigmatización, prejuicio o desigualdad alguna.
 
       .col-8.col-lg-4.mt-3
         figure
           img(src="@/assets/curso/temas/tema3/img5.svg", alt="alt")
 
-    separador
+    
 
-    #t_3_2
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 3.2 Técnicas de recolección 
+
+    h3 Técnicas de recolección 
 
     .row.justify-content-center.align-items-center.mb-5
 
@@ -101,11 +89,6 @@
 
       p Algunas de las técnicas más conocidas y empleadas para la recolección de datos son:      
 
-    .row.mt-3
-      ul.lista-ul--color
-        li 
-          i.fas.fa-square
-          p.mb-0 #[b Técnicas de recolección] 
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-12
@@ -115,31 +98,30 @@
               img(src='@/assets/curso/temas/tema3/img7.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.p-3(x="11%" y="0%" numero="1")
-            .h5.mb-2 Cuestionarios
+            .h5.mb-2 Las entrevistas
             p Esta es la técnica más utilizada en cualquier investigación de mercado o en cualquier filtro de información. Consiste en la recopilación de información mediante cuestionarios y formularios de forma personal, virtual o telefónica, dirigida por una persona. Para estas entrevistas siempre se determina un alcance, y las preguntas redactadas pueden ser abiertas o cerradas, dependiendo de sus objetivos.
 
           .tarjeta.color-acento-botones.p-3(x="30.5%" y="44%" numero="2")
-            .h5.mb-2 Justificar la inversión
+            .h5.mb-2 Cuestionarios
             p Estos pretenden la obtención de datos mediante preguntas relacionadas con el tema a tratar o con la investigación pertinente al caso de estudio; pueden llegar a generar opiniones y sugerencias relacionadas con los temas de interés, pues su enfoque permite una recolección de información más amplia. Es posible aplicar cuestionarios abiertos, como aquellos que buscan profundizar y enfatizar un tema, diferentes a los cuestionarios cerrados que obtienen información concisa y sus respuestas están limitadas a un ‘sí’ y un ‘no’.  
 
           .tarjeta.color-acento-botones.p-3(x="50%" y="0%" numero="3")
             .h5.mb-2 Encuestas
-            p Las encuestas, al igual que los cuestionarios, pretenden filtrar una información de manera óptima, con la diferencia de que en las encuestas se plantean diversas posibles respuestas para cada pregunta realizada. Los resultados de las encuestas pueden aportar datos estadísticos para la organización que las aplica, de utilidad tanto para el marketing como para la detección y solución de deficiencias. Estas encuestas pueden realizarse de modo personal y telefónica o digitalmente.
+            p Pretenden filtrar una información de manera óptima, con la diferencia de que en las encuestas se plantean diversas y posibles respuestas para cada pregunta realizada. Los resultados de las encuestas pueden aportar datos estadísticos para la organización que las aplica, es de utilidad tanto para el #[em marketing] como para la detección y solución de deficiencias. Estas encuestas pueden realizarse de modo personal y telefónica o digitalmente.
 
           .tarjeta.color-acento-botones.p-3(x="69.5%" y="44%" numero="4")
             .h5.mb-2 Observación
-            p Esta acción también es denominada como técnica de recolección de datos; consiste en el análisis comportamental de una persona, que generalmente es realizado por trabajadores sociales o psicólogos, quienes tienen los conocimientos y herramientas necesarias para descifrar los comportamientos de una persona, entregando información de mucha utilidad en el marketing. Se puede llevar a cabo registrando las conversaciones, acciones y gestos de una persona, para luego realizar un análisis que sirva como informe para la empresa u organización.
+            p Esta acción también es denominada como técnica de recolección de datos; consiste en el análisis comportamental de una persona. Generalmente es realizado por trabajadores sociales o psicólogos, quienes tienen los conocimientos y herramientas necesarias para descifrar los comportamientos, entregando información de mucha utilidad en el #[em marketing]. Se puede llevar a cabo registrando las conversaciones, acciones y gestos de una persona, para luego realizar un análisis que sirva como informe para la empresa u organización.
 
           .tarjeta.color-acento-botones.p-3(x="89%" y="0%" numero="5")
             .h5.mb-2 #[i Focus group] o reuniones en grupo
             p Esta es una de las técnicas de recolección de datos que más se está empleando en la actualidad gracias a su practicidad. Consiste en realizar una reunión con un grupo de personas, las cuales aportan información sobre un tema específico. El organizador del #[i focus group] tendrá la responsabilidad de recolectar la información y analizar la expresión corporal de los integrantes de la reunión.
 
-    separador
+    
+    
 
-    #t_3_3
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 3.3 Aplicabilidad
+    h3 Aplicabilidad de la comunicación asertiva
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img.bloque-texto-g__img2(

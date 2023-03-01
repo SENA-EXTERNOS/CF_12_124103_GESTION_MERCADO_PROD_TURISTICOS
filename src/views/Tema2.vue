@@ -34,7 +34,7 @@
 
           .tarjeta.color-acento-botones.p-3(x="10%" y="0%" numero="1")
             .h5.mb-2 Canales directos
-            p También son considerados como marketing directo. Estos se fundamentan en que los productores o proveedores de productos y servicios se encargan directamente de la venta con el cliente o turista que lo necesite. Por lo general, esto se evidencia en los servicios turísticos básicos, tales como el de la alimentación, el alojamiento y el transporte.
+            p También son considerados como #[b #[em marketing]] directo. Estos se fundamentan en que los productores o proveedores de productos y servicios se encargan directamente de la venta con el cliente o turista que lo necesite. Por lo general, esto se evidencia en los servicios turísticos básicos, tales como  alimentación,  alojamiento y transporte.
 
           .tarjeta.color-acento-botones.p-3(x="15%" y="50%" numero="2")
             .h5.mb-2 Canales cortos
@@ -45,12 +45,9 @@
             p Estos también son conocidos como canales completos y complejos, ya que cuentan con más de dos intermediarios para la comercialización de sus productos y servicios.
 
 
-    separador
 
-    #t_2_1
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1 Procesos      
+    h3 Procesos      
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2
@@ -91,37 +88,30 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
 
 
-    separador
+    
+    h3 Técnicas
 
-    #t_2_2
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img6.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Las técnicas para la comercialización de portafolios de servicios turísticos son el conjunto de habilidades y destrezas utilizadas para la gestión comercial de los mismos; puede establecer los pasos a seguir para lograr alcanzar y solventar los objetivos de las ventas de los portafolios, para lo cual se hace necesario establecer y cumplir algunos de los siguientes lineamientos.
 
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.2 Técnicas
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img6.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 En la siguiente infografía se explica en qué consisten las diferentes técnicas para la comercialización de servicios turísticos, al igual que se establecen los pasos a seguir para lograr los objetivos de las ventas de los portafolios.
-        br
-        br
-        | Las técnicas para la comercialización de portafolios de servicios turísticos son el conjunto de habilidades y destrezas utilizadas para la gestión comercial de los mismos; puede establecer los pasos a seguir para lograr alcanzar y solventar los objetivos de las ventas de los portafolios, para lo cual se hace necesario establecer y cumplir algunos de los siguientes lineamientos.
-
-    .row.mt-5
-      p Aspectos por considerar para el logro de los objetivos de las ventas:
+    p.mb-4 En la siguiente infografía se explica en qué consisten las diferentes técnicas para la comercialización de servicios turísticos, al igual que se establecen los pasos a seguir para lograr los objetivos de las ventas de los portafolios.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")
 
-    separador
-
-    #t_2_3
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.3 Gestión de servicios turísticos
+    
+    
+    
+    h3 Gestión de servicios turísticos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -133,16 +123,9 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema2/img8.svg", alt="alt")   
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        p Para realizar la gestión de productos turísticos con éxito, se deben considerar los siguientes aspectos:
 
-    .row.mt-3
-      ul.lista-ul--color
-        li 
-          i.fas.fa-square
-          p.mb-0 #[b Gestión de productos turísticos]  
-
+    p.mb-5 Para realizar la gestión de productos turísticos con éxito, se deben considerar los siguientes aspectos:
+  
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-12
         ImagenInfografica.color-acento-botones
