@@ -108,29 +108,29 @@ export default {
       tipo: 'Tesis',
       link: 'https://www.dspace.espol.edu.ec/handle/123456789/53087 ',
     },
-    {
-      tema: 'comercialización de portafolio de servicios ',
-      referencia:
-        'Fernández, A. Villarán, A. (2017). <em>Promoción y comercialización de productos y servicios turísticos locales</em>. Ediciones Paraninfo, SA. ',
-      tipo: 'Libro ',
-      link:
-        'https://books.google.es/books?hl=es&lr=&id=2Lo8DwAAQBAJ&oi=fnd&pg=PP1&dq=comercializaci%C3%B3n+portafolios+de+servicios+tur%C3%ADsticos&ots=uLauITQJcu&sig=8T4ctqki2re9e_SwaVaSx__GldI#v=onepage&q=comercializaci%C3%B3n%20portafolios%20de%20servicios%20tur%C3%ADsticos&f=false ',
-    },
-    {
-      tema: 'Comunicación asertiva',
-      referencia:
-        'Aguilar, J. E. (2019). <em>Comunicación asertiva</em>. Direccióndepersonal.com. ',
-      tipo: 'Manual didáctico',
-      link: 'http://www.direcciondepersonal.com/comunicacion_asertiva.pdf',
-    },
-    {
-      tema: 'técnicas de recolección.',
-      referencia:
-        'Caro, L. (2021). <em>7 técnicas e instrumentos para la recolección de datos</em>. Equipo Editorial. ',
-      tipo: 'Instructivo ',
-      link:
-        'https://gc.scalahed.com/recursos/files/r161r/w25172w/M1CCT05_S3_7_Tecnicas_e_instrumentos.pdf ',
-    },
+    //{
+    //tema: 'Comercialización de portafolio de servicios ',
+    //referencia:
+    //  'Fernández, A. Villarán, A. (2017). <em>Promoción y comercialización de productos y servicios turísticos locales</em>. Ediciones Paraninfo, SA. ',
+    // tipo: 'Libro ',
+    // link:
+    //   'https://books.google.es/books?hl=es&lr=&id=2Lo8DwAAQBAJ&oi=fnd&pg=PP1&dq=comercializaci%C3%B3n+portafolios+de+servicios+tur%C3%ADsticos&ots=uLauITQJcu&sig=8T4ctqki2re9e_SwaVaSx__GldI#v=onepage&q=comercializaci%C3%B3n%20portafolios%20de%20servicios%20tur%C3%ADsticos&f=false ',
+    //},
+    // {
+    //tema: 'Comunicación asertiva',
+    //referencia:
+    //   'Aguilar, J. E. (2019). <em>Comunicación asertiva</em>. Direccióndepersonal.com. ',
+    // tipo: 'Manual didáctico',
+    // link: 'http://www.direcciondepersonal.com/comunicacion_asertiva.pdf',
+    // },
+    //{
+    //  tema: 'técnicas de recolección.',
+    //  referencia:
+    //    'Caro, L. (2021). <em>7 técnicas e instrumentos para la recolección de datos</em>. Equipo Editorial. ',
+    //  tipo: 'Instructivo ',
+    // link:
+    //  'https://gc.scalahed.com/recursos/files/r161r/w25172w/M1CCT05_S3_7_Tecnicas_e_instrumentos.pdf ',
+    // },
   ],
   glosario: [
     {
@@ -182,11 +182,22 @@ export default {
     },
   ],
   referencias: [
+    //{
+    //referencia:
+    // 'Molina, P. G. (2016). <em>Promoción y comercialización de productos y servicios turísticos locales. UF 0084</em>. Tutor Formación.',
+    //link:
+    //  'https://books.google.es/books?hl=es&lr=&id=owQKDQAAQBAJ&oi=fnd&pg=PA7&dq=procesos+de+comercializacion+turistica&ots=OqsOgHbvaN&sig=nCyW7WmFidnQUxdLzLK3SumL9bw#v=onepage&q&f=false',
+    //},
     {
       referencia:
-        'Molina, P. G. (2016). <em>Promoción y comercialización de productos y servicios turísticos locales. UF 0084</em>. Tutor Formación.',
+        'Aguilar, J. E. (2019). <em>Comunicación asertiva.</em> Direccióndepersonal.com. ',
+      link: 'http://www.direcciondepersonal.com/comunicacion_asertiva.pdf ',
+    },
+    {
+      referencia:
+        'Caro, L. (2021). <em>7 técnicas e instrumentos para la recolección de datos.</em> Equipo Editorial. ',
       link:
-        'https://books.google.es/books?hl=es&lr=&id=owQKDQAAQBAJ&oi=fnd&pg=PA7&dq=procesos+de+comercializacion+turistica&ots=OqsOgHbvaN&sig=nCyW7WmFidnQUxdLzLK3SumL9bw#v=onepage&q&f=false',
+        'https://gc.scalahed.com/recursos/files/r161r/w25172w/M1CCT05_S3_7_Tecnicas_e_instrumentos.pdf ',
     },
   ],
   creditos: {

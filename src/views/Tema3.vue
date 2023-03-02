@@ -35,7 +35,7 @@
               .col-lg-10
                 p.mt-3 Algunos conceptos definen la comunicación asertiva, como el estilo de la misma comunicación, que permite expresar las ideas de una persona de manera directa y precisa, así como también sus posturas y emociones.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="La asertividad en el turísmo")
+          .tarjeta.clr-paleYellow.p-4(titulo="La asertividad en el turismo")
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2.px-4
                 figure(data-aos="zoom-in")

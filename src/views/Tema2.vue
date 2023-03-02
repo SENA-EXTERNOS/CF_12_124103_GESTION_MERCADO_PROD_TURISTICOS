@@ -80,8 +80,9 @@
           .col-md-6.mb-4.mb-md-0
             p Para la generación de estrategias de distribución se debe tener en cuenta la intensidad que se pretenda, como también el grado de cobertura que se intente acaparar; también es necesario identificar un mercado objetivo que pueda cumplir con los niveles de la estrategia de distribución. 
 
+    p.mt-5 A continuación, lo invitamos a conocer los diferentes tipos de estrategias:
 
-    .row.justify-content-center.align-items-center.mb-5.mt-5          
+    .row.justify-content-center.align-items-center.mb-5.mt-4          
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
