@@ -18,8 +18,8 @@
     
     .row.justify-content-center.align-items-center.mt-3       
       .col-lg-12
-        TabsA.color-acento-contenido.mb-5        
-          .tarjeta.clr-paleYellow.p-4(titulo="El diálogo")
+        TabsC.color-acento-contenido.mb-5        
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="El diálogo")
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2.px-4
                 figure(data-aos="zoom-in")
@@ -27,7 +27,7 @@
               .col-lg-10
                 p.mt-3 La comunicación asertiva hace referencia a la habilidad de establecer un diálogo de manera eficaz y contundente, el cual abre las puertas a la retroalimentación, respetando las ideas de los integrantes dentro de la conversación y permitiendo el diálogo cordial. 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Posturas y emociones de una persona")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="Posturas y emociones de una persona")
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2.px-4
                 figure(data-aos="zoom-in")
@@ -35,7 +35,7 @@
               .col-lg-10
                 p.mt-3 Algunos conceptos definen la comunicación asertiva, como el estilo de la misma comunicación, que permite expresar las ideas de una persona de manera directa y precisa, así como también sus posturas y emociones.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="La asertividad en el turismo")
+          .tarjeta.clr-paleYellow.p-4.mb-3(titulo="La asertividad en el turismo")
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-2.px-4
                 figure(data-aos="zoom-in")
@@ -125,7 +125,7 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img.bloque-texto-g__img2(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img8.svg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/1.svg')})`}"
       )
       .bloque-texto-g__texto.p-4.bloque-texto-g__texto2
         p.mb-0 La aplicabilidad de la comunicación asertiva abarca los diferentes entornos sociales y económicos en los que se pueda desempeñar una persona. Es importante entender que la aplicación de la comunicación asertiva no tiene siempre una respuesta positiva, es decir, cuando se entabla una conversación o un diálogo utilizando diferentes técnicas de comunicación se pueden obtener todo tipo de respuestas: por ejemplo, respuestas pasivas que tienden a la evasión o expresan desinterés o respuestas agresivas que, por lo general, provienen de personas que solo quieren defender sus argumentos y que se rehúsan a abrir su pensamiento o cambiar de opinión. La respuesta ideal es la asertiva, y es la que debe buscarse en primera instancia al momento de entablar una conversación.

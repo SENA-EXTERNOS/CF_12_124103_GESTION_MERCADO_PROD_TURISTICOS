@@ -58,7 +58,7 @@
 
     .row.justify-content-center.align-items-center.mt-4
       .col-lg-2
-        figure(data-aos="zoom-in")
+        figure
           img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-8
@@ -103,14 +103,14 @@
                 p.mb-0 Este elemento define lo que pretende alcanzar la organización o persona que realice el portafolio; por lo general, se relaciona con la misión de la organización y trata de sintetizar de forma clara y concisa los objetivos de la empresa.
 
         .col-lg-4
-          figure(data-aos="zoom-in")
+          figure
             img(src="@/assets/curso/temas/tema1/img7.png", alt="alt").img400.m-auto
 
 
     .bg--img_03
       .row.justify-content-center.mb-4
         .col-lg-4
-          figure(data-aos="zoom-in")
+          figure
             img(src="@/assets/curso/temas/tema1/img8.png", alt="alt").img400.m-auto
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
@@ -152,7 +152,7 @@
         p.mt-3 Así mismo, es posible definir la compleja estructura del portafolio turístico, la cual se puede denominar como el sistema que abarca los elementos o componentes necesarios ya han sido mencionados. Ahora bien, la estructura con la que se plantea un portafolio de servicios turísticos se define dependiendo de las necesidades de cada persona u organización turística, considerando también los diferentes tipos de portafolios de servicios, como lo son:
 
       .col-lg-4
-          figure(data-aos="zoom-in")
+          figure
             img(src="@/assets/curso/temas/tema1/img9.png", alt="alt").img400.m-auto
 
     .row.mt-3
@@ -166,7 +166,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         h5.text-center Clases de portafolios
-        figure(data-aos="zoom-in")
+        figure
           img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt")
 
     
@@ -183,7 +183,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        figure(data-aos="zoom-in")
+        figure
           img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")
 
 
@@ -195,7 +195,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2
-        figure(data-aos="zoom-in")
+        figure
           img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt")
 
       .col-lg-8
@@ -209,7 +209,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         p #[b Ejemplo de ficha técnica]
-        figure(data-aos="zoom-in")
+        figure
           img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt")    
 
 
